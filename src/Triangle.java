@@ -4,7 +4,9 @@ public class Triangle{
 			//int j =1;
 			for(int j=0;j<2*i+1;j++){
 				System.out.print("*");
-				
+				if(j!=2*i){
+					System.out.print(" ");
+				}
 			}
 			System.out.println();
 		}
